@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{9CBC780D-EFF2-F72C-3BE4-0D0080BF7F7C}") = "TREP01-VolumeAndPanning", "TREP01-VolumeAndPanning.vcxproj", "{41B55C05-D2EF-F4D4-2C25-68A21D46ED6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41B55C05-D2EF-F4D4-2C25-68A21D46ED6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41B55C05-D2EF-F4D4-2C25-68A21D46ED6E}.Debug|Win32.Build.0 = Debug|Win32
+		{41B55C05-D2EF-F4D4-2C25-68A21D46ED6E}.Release|Win32.ActiveCfg = Release|Win32
+		{41B55C05-D2EF-F4D4-2C25-68A21D46ED6E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

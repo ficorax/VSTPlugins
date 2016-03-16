@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Bpg0rW" name="TREP02-EQFilter" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.TREP02EQFilter" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="0" buildAU="1" buildRTAS="0" buildAAX="0"
+              pluginName="TREP02-EQFilter" pluginDesc="TREP02-EQFilter" pluginManufacturer="mu45"
+              pluginManufacturerCode="Manu" pluginCode="Bpg0" pluginChannelConfigs=""
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginSilenceInIsSilenceOut="0"
+              pluginEditorRequiresKeys="0" pluginAUExportPrefix="TREP02EQFilterAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.TREP02EQFilter"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.1.0">
+  <MAINGROUP id="stmRPd" name="TREP02-EQFilter">
+    <GROUP id="{DB63659D-3EEC-ACA9-E2F3-13B75A59CD99}" name="Source">
+      <FILE id="DyO13D" name="Mu45FilterCalc.cpp" compile="1" resource="0"
+            file="Source/Mu45FilterCalc.cpp"/>
+      <FILE id="odCdzX" name="Mu45FilterCalc.h" compile="0" resource="0"
+            file="Source/Mu45FilterCalc.h"/>
+      <FILE id="i9BhIe" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="bMBXU6" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="UjIK6H" name="PluginParameter.h" compile="0" resource="0"
+            file="Source/PluginParameter.h"/>
+      <FILE id="q1f8zC" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="QVxrtk" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="KC9Gbu" name="GUI.cpp" compile="1" resource="0" file="Source/GUI.cpp"/>
+      <FILE id="ylshE8" name="GUI.h" compile="0" resource="0" file="Source/GUI.h"/>
+      <FILE id="EGfvCe" name="BiQuad.cpp" compile="1" resource="0" file="Source/BiQuad.cpp"/>
+      <FILE id="SlnUgR" name="BiQuad.h" compile="0" resource="0" file="Source/BiQuad.h"/>
+      <FILE id="sbmIlo" name="Delay.cpp" compile="1" resource="0" file="Source/Delay.cpp"/>
+      <FILE id="cOhFNm" name="Delay.h" compile="0" resource="0" file="Source/Delay.h"/>
+      <FILE id="P61a3e" name="DelayA.cpp" compile="1" resource="0" file="Source/DelayA.cpp"/>
+      <FILE id="PVVHy1" name="DelayA.h" compile="0" resource="0" file="Source/DelayA.h"/>
+      <FILE id="RUv7On" name="DelayL.cpp" compile="1" resource="0" file="Source/DelayL.cpp"/>
+      <FILE id="htPrvo" name="DelayL.h" compile="0" resource="0" file="Source/DelayL.h"/>
+      <FILE id="eVryKo" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="QXNujy" name="Fir.cpp" compile="1" resource="0" file="Source/Fir.cpp"/>
+      <FILE id="P2ktxX" name="Fir.h" compile="0" resource="0" file="Source/Fir.h"/>
+      <FILE id="xzvMCA" name="FormSwep.cpp" compile="1" resource="0" file="Source/FormSwep.cpp"/>
+      <FILE id="uQo9WK" name="FormSwep.h" compile="0" resource="0" file="Source/FormSwep.h"/>
+      <FILE id="ta6T2E" name="Iir.cpp" compile="1" resource="0" file="Source/Iir.cpp"/>
+      <FILE id="KK2Tnq" name="Iir.h" compile="0" resource="0" file="Source/Iir.h"/>
+      <FILE id="wjx5R2" name="OnePole.cpp" compile="1" resource="0" file="Source/OnePole.cpp"/>
+      <FILE id="gPUo6g" name="OnePole.h" compile="0" resource="0" file="Source/OnePole.h"/>
+      <FILE id="KrW0GZ" name="OneZero.cpp" compile="1" resource="0" file="Source/OneZero.cpp"/>
+      <FILE id="LEPl9i" name="OneZero.h" compile="0" resource="0" file="Source/OneZero.h"/>
+      <FILE id="xorxFC" name="PoleZero.cpp" compile="1" resource="0" file="Source/PoleZero.cpp"/>
+      <FILE id="SeyPFV" name="PoleZero.h" compile="0" resource="0" file="Source/PoleZero.h"/>
+      <FILE id="mZcRJB" name="Stk.cpp" compile="1" resource="0" file="Source/Stk.cpp"/>
+      <FILE id="wI9KQo" name="Stk.h" compile="0" resource="0" file="Source/Stk.h"/>
+      <FILE id="LTgmJz" name="TapDelay.cpp" compile="1" resource="0" file="Source/TapDelay.cpp"/>
+      <FILE id="vyzUbm" name="TapDelay.h" compile="0" resource="0" file="Source/TapDelay.h"/>
+      <FILE id="i0YPUw" name="TwoPole.cpp" compile="1" resource="0" file="Source/TwoPole.cpp"/>
+      <FILE id="GtqZdj" name="TwoPole.h" compile="0" resource="0" file="Source/TwoPole.h"/>
+      <FILE id="KzbbyN" name="TwoZero.cpp" compile="1" resource="0" file="Source/TwoZero.cpp"/>
+      <FILE id="TCOvFg" name="TwoZero.h" compile="0" resource="0" file="Source/TwoZero.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vstFolder="C:\Users\trealy1\Desktop\Spring 2016\Filters\vstsdk2.4\vstsdk2.4">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="TREP02-EQFilter"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="TREP02-EQFilter"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../modules"/>
+        <MODULEPATH id="juce_video" path="../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
